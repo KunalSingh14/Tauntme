@@ -1,0 +1,26 @@
+body{
+    background: #FFF386;
+    margin: 10% auto;
+}
+.bg_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+img{
+    position: absolute;
+    border-radius: 10%;
+    z-index: -1;
+}
+.bg_overlay{
+    width: 25em;
+    height: 35em;
+    background: rgba(51, 51, 51, 0.84);
+    border-radius: 10%;
+    z-index: 0;
+}
+.bg_image h1{
+    position: absolute;
+    color:white;
+}
